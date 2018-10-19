@@ -1,0 +1,68 @@
+body {
+    font-family: arial;
+    background-color: #79b4a9;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 10%;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-mission, .our-background, .our-vibe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#donut {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#candy {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#icecream {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 75px;
+    background-color: black;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    
+}
+
+.footer * {
+    padding: 0px 40px;
+    font-size: 14px;
+}
