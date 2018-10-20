@@ -50,12 +50,13 @@ a:hover .big {
     z-index: -3;
 }
 
-body {
-    font-family: arial;
+.body {
+    font-family: "Rubik";
+    background-color: #bbe2a5;
 }
 
 .main-background {
-    background-color: #FEFFA5;
+    background-color: #bbe2a5;
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -78,3 +79,4 @@ body {
     padding: 40px;
     font-size: 14px;
 }
+
