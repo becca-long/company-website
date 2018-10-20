@@ -63,6 +63,7 @@ a:hover .big {
     width: 100vw;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
 }
 
 .footer {
