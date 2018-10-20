@@ -1,0 +1,100 @@
+body {
+    font-family: 'Rubik';
+    background-color: #79b4a9;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 20% 30px 20%;
+    color: white;
+}
+
+ img.card-img {
+    height: 307px;
+    width: 586px;
+} 
+
+.card {
+    background-color: #181e1e;
+    color: black;
+}
+
+h1 {
+    padding: 100px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-mission, .our-background, .our-vibe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+}
+
+.title-left {
+    justify-content: left;
+    padding: 0px 50px 0px 0px;
+}
+
+.title-right {
+    justify-content: right;
+    padding: 0px 0px 0px 50px;
+}
+
+#cupcake {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#brownie {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#icecream {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    border-color: white;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card-body > .card-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 75px;
+    background-color: black;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    
+}
+
+.footer * {
+    padding: 0px 40px;
+    font-size: 14px;
+}
