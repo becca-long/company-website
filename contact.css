@@ -16,6 +16,19 @@ main {
 .center {
   text-align: center;
 }
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 75px;
+    background-color: black;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+}
+.footer * {
+    padding: 0 40px;
+    font-size: 16px;
+}
 h1, h2 {
   color: white;
   text-align: center;
